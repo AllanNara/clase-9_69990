@@ -1,0 +1,22 @@
+{
+  "name": "motores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:ejs": "nodemon ./example-ejs/app.js",
+    "start:pug": "nodemon ./example-pug/app.js",
+    "start:hbs": "nodemon ./example-hbs/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "pug": "^3.0.3"
+  }
+}

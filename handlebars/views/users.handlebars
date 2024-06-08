@@ -1,0 +1,16 @@
+<div>
+  {{#if length}}
+
+  <h1>Lista de usuarios</h1>
+  {{#each users}}
+    <div>
+      <p>username: {{this.name}}</p>
+      <p>correo: {{this.email}}</p>
+    </div>
+  {{/each}}
+
+  {{else}}
+  <h1>No existen usuarios para mostrar</h1>
+
+  {{/if}}
+</div>
